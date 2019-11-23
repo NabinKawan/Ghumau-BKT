@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Temples">
+    <AutoCompleteTextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Search your destination"
+        android:textSize="15dp"
+        android:gravity="fill"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="8dp"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/text_view"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/grey"
+        android:background="@drawable/edit_border"
+        ></AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:paddingBottom="16dp"
+        android:textSize="20sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_below="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        style="@style/SpinKitView.Circle"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:SpinKit_Color="@color/colorPrimaryDark" />
+
+</RelativeLayout>

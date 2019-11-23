@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BktTour</string>
+    <string name="access_token" translatable="false">pk.eyJ1Ijoia25lZXJvc2UiLCJhIjoiY2syaDA3aTgyMDE2czNib2VmNnBzenkzdyJ9.-jlrGU2AdXa4uePjJxaBkg</string>
+</resources>

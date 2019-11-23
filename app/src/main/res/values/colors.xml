@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#89cff0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#808080</color>
+    <color name="light_pink">#FFB6C1</color>
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+    <color name="mapboxPink">#ee4e8b</color>
+    <color name="mapboxYellow">#d9d838</color>
+    <color name="mapboxRed">#b43b71</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+</resources>
